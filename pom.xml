@@ -12,7 +12,13 @@
   <inceptionYear>2012</inceptionYear>
 	<description>
     Application to create a html file with many images to Calibre App use
-	</description>
+  </description>
+
+  <scm>
+    <connection>https://github.com/maumss/Calibre-Helper.git</connection>
+    <developerConnection>git@github.com:maumss/Calibre-Helper.git</developerConnection>
+    <url>https://github.com/maumss/Calibre-Helper</url>
+  </scm>
 
   <developers>
     <developer>
@@ -26,7 +32,7 @@
 	  <timezone>-3</timezone>
     </developer>
 	</developers>
-  
+
   <repositories>
     <repository>
       <url>http://repo1.maven.org/maven2/</url>
@@ -42,13 +48,13 @@
   <dependencies>
     <dependency>
         <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>		
+        <artifactId>slf4j-api</artifactId>
         <version>1.6.1</version>
     </dependency>
-    <dependency>     
-        <groupId>ch.qos.logback</groupId>     
-        <artifactId>logback-classic</artifactId>     
-        <version>1.0.6</version> 
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.0.6</version>
     </dependency>
     <dependency>
         <groupId>org.apache.commons</groupId>
@@ -67,7 +73,7 @@
       <version>1.0.3</version>
     </dependency>
   </dependencies>
-  
+
   <build>
 		<plugins>
 			<plugin>
@@ -84,24 +90,24 @@
 					</archive>
 				</configuration>
 			</plugin>
-      <plugin> 
-        <groupId>org.apache.maven.plugins</groupId> 
-        <artifactId>maven-dependency-plugin</artifactId> 
-        <executions> 
-          <execution> 
-            <id>copy-dependencies</id> 
-            <phase>package</phase> 
-            <goals> 
-              <goal>copy-dependencies</goal> 
-            </goals> 
-            <configuration> 
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-dependencies</id>
+            <phase>package</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
               <includeScope>runtime</includeScope>
-              <outputDirectory> 
-                ${project.build.directory}/lib 
-              </outputDirectory> 
-            </configuration> 
-          </execution> 
-        </executions> 
+              <outputDirectory>
+                ${project.build.directory}/lib
+              </outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
 		</plugins>
 	</build>
