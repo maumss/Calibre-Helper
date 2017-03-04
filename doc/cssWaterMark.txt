@@ -1,0 +1,24 @@
+<style>
+ <!--
+ opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */ 
+ filter:alpha(opacity=50); /* for <= IE 8 */ 
+ //-->
+ </style> 
+ 
+ <style type="text/css">
+    body { background-image: url(../watermark.png);
+    background-repeat: no-repeat; background-attachment: fixed;
+    background-position: center top; #xpos ypos
+    overflow: hidden; width: 100%; margin: 80px 0 0 0; z-index: -1; } 
+    p {margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; text-indent: 15pt; text-align: justify;}
+    h1 {text-align: center; line-height:1.6em;}
+    # chapter with page break before 
+    h2 {font-weight: 600; font-size: x-large; padding-bottom: 20pt; } 
+    # Title and Author
+    h3 {padding-bottom: 20pt; font-weight: 600; font-size: xx-large }
+    h1,h2,h3,h4,h5,h6 {page-break-before: always; text-align:center;}
+    img {text-align: center; display: block; text-indent: 0; margin: 3px auto; height: 100%; max-width: 100%;}
+    .large {font-size:200%; font-weight:bold;}
+    .medium {font-size:130%;}
+    .center {text-align:center;}
+  </style>
