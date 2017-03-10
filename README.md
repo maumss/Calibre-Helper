@@ -33,7 +33,7 @@ Mauricio Soares da Silva - [maumss@users.noreply.github.com](mailto:maumss@users
 
 ## License
 
-[GNU General Public License (GNU) v3](http://www.gnu.org/licenses/)
+[GNU General Public License (GPL) v3](http://www.gnu.org/licenses/)
 
 Copyright &copy; 2012 Mauricio Soares da Silva
 

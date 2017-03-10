@@ -15,9 +15,9 @@
   </description>
 
   <scm>
-    <connection>https://github.com/maumss/Calibre-Helper.git</connection>
-    <developerConnection>git@github.com:maumss/Calibre-Helper.git</developerConnection>
-    <url>https://github.com/maumss/Calibre-Helper</url>
+    <connection>https://github.com/maumss/calibre-helper.git</connection>
+    <developerConnection>git@github.com:maumss/calibre-helper.git</developerConnection>
+    <url>https://github.com/maumss/calibre-helper</url>
   </scm>
 
   <developers>
