@@ -29,7 +29,7 @@ Choose de source folder
 - Don't break page by image
 
 ## Credits
-Mauricio Soares da Silva - [maumss@users.noreply.github.com](mailto:maumss@users.noreply.github.com)
+[Mauricio Soares da Silva](mailto:maumss.git@gmail.com).
 
 ## License
 
